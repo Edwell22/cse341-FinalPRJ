@@ -23,7 +23,7 @@ describe('MongoDB Routes', () => {
     let connection;
     let db;
     let testUserId;
-    const userCollection = 'usermanagement';
+    const userCollection = 'users';
 
     beforeAll(async () => {
         // Initialize MongoDB connection
